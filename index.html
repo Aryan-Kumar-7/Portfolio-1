@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan - portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mukta:wght@300&family=Poppins:wght@400;600;700&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Ubuntu:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38f8533cd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Aryan's Portfolio</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hi, My name is <span class="purpel">Aryan Kumar</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <a href="https://drive.google.com/file/d/13Q7HTcjzWkSu6GehQIMcnh1x2nAxgA-Z/view?usp=drive_link" download class="btn btn2" id="btn">Download CV</a>
+            </div>
+            <div class="rightsection">
+                <img src="img/devloper.png" alt="">
+            </div>
+        </section>
+        <!-- <hr> -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/dev.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi there! I'm Aryan Kumar, a passionate programmer, full stack developer, and UI/UX designer. With a strong foundation in the MERN stack (MongoDB, Express.js, React, and Node.js), I create dynamic and responsive web applications that provide seamless user experiences. I love coding and problem-solving. Whether it's debugging complex algorithms or optimizing performance, I thrive on challenges and continuous learning. As a full stack developer, I handle everything from the server-side logic to the user interface. My expertise in the MERN stack allows me to build robust and scalable web applications, ensuring efficient and maintainable code. I believe that a great user experience is at the heart of any successful application. With a keen eye for design and a deep understanding of user behavior, I create intuitive and aesthetically pleasing interfaces that delight users and drive engagement.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                            <p class="tab-links" onclick="opentab('exeperience')">Exeperience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>C, C++, Java, Python, JavaScript</li>
+                                <li><span>Web Development</span><br>HTML, CSS, JavaScript, Tailwind CSS, BootStrap, React Js, Node Js, Express Js</li>
+                                <li><span>Database Management</span><br>MySQL, MongoDB</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="exeperience">
+                            <ul>
+                                <li><span>Web Devlopment</span><br>Code Alpha, Intern Army, Bharat Intern</li>
+                                <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>High School</span><br>Modern Inter College Azamgarh <span>80.5%</span></li>        
+                                <li><span>Intermediate</span><br>Sarvodaya Public College Azamgarh <span>75.6%</span></li>
+                                <li><span>B.Tech</span><br>Chhtrapati Sahu Ji Mahraj University, Kanpur <span>6.30 (current)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>As a web designer, I specialize in creating visually compelling and highly functional websites that enhance user experience and drive engagement. My design philosophy is rooted in a balance between aesthetics and usability, ensuring that every site I design not only looks stunning but also performs optimally across all devices.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>As a UI/UX designer, I am passionate about crafting digital experiences that are not only visually appealing but also intuitive and user-friendly. My design process is driven by empathy, creativity, and a deep understanding of user behavior, ensuring that every interaction with the product is seamless and satisfying.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <!-- <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ut suscipit, perferendis
+                            perspiciatis cupiditate ad, error voluptatum pariatur tempore expedita temporibus beatae
+                            voluptate laboriosam tempora reprehenderit. Veritatis accusamus optio iste!</p>
+                        <a href="#">Learn more</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/chat app.png" alt="">
+                        <div class="layer">
+                            <h3>Food Delivery</h3>
+                            <p>
+                            </p>
+                            <a href="https://github.com/Aryan-Kumar-7/Chat-Application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/food delivery.png" alt="">
+                        <div class="layer">
+                            <h3>E-Commerce</h3>
+                            <p>
+                            </p>
+                            <a href="https://github.com/Aryan-Kumar-7/Food-Delivery-App"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/e commerce.png" alt="">
+                        <div class="layer">
+                            <h3>Chat Application</h3>
+                            <p>
+                            </p>
+                            <a href="https://github.com/Aryan-Kumar-7/E-Commerce-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Aryan-Kumar-7" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <div class="cl"></div>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>rajaryankumar26april@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91-6386242593</p>
+                        <div class="social-icon">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/13Q7HTcjzWkSu6GehQIMcnh1x2nAxgA-Z/view?usp=drive_link" download class="btn btn2" id="btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="" id="form">
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2" id="b">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aryan's Devloper Portfolio</h3>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Aryanportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
